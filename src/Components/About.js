@@ -2,7 +2,7 @@ import React from 'react'
 
 export const About = () => {
     return (
-        <div className="container">
+        <div className="">
             <h1 className="my-3 text-center" >About Us</h1>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
@@ -13,7 +13,7 @@ export const About = () => {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            My-iNotes gives you a way to add, update and delete your notes quickly and efficiently.
+                            NoteitDown gives you a way to add, update and delete your notes quickly and efficiently.
 
                         </div>
                     </div>
@@ -26,7 +26,7 @@ export const About = () => {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            My-iNotes is a free tool that provides instant manipulations operations for your notes.
+                            NoteitDown is a free tool that provides instant manipulations operations for your notes.
                         </div>
                     </div>
                 </div>
@@ -38,13 +38,22 @@ export const About = () => {
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div className="accordion-body" >
-                            My-iNotes works in any web browsers such as Chrome, Firefox, Internet Explorer, Safari, Opera.
+                            NoteitDown works in any web browsers such as Chrome, Firefox, Internet Explorer, Safari, Opera.
 
                         </div>
                     </div>
                 </div>
+             
+              
             </div>
-
+            <div className=''>
+                <br>
+                </br>
+                <br>
+                </br>
+           
+                
+            </div>
         </div>
     )
 }
