@@ -19,7 +19,7 @@
 .container{
   background-color: rgba(148, 150, 146, 0.747);
 }
-h2{
+h2,h1{
   color: azure;
   font-family:monospace;
 }
